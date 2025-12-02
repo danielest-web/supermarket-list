@@ -30,7 +30,7 @@ body {
 .form-input,
 .form-button {
   border-radius: 0;
-  padding: 0.75rem;
+  padding: 0.72rem;
   font-size: 0.75rem;
 }
 .form-input {
@@ -57,21 +57,23 @@ body {
   width: 100%;
 }
 .task {
-  background-color: rgba(238, 194, 118, 0.5);
+  border-bottom: 1px solid #f6f1d1;
   color: #2c3e50;
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
 }
-.tast.done .content {
+.task.done .content {
   color: #923136;
   text-decoration: line-through;
 }
 
 .check-button,
 .delete-button {
-  background-color: #f6f1d1;
+  background-color: #228155;
   border: none;
+  color: #fff;
+  padding: 10px;
   cursor: pointer;
 }
